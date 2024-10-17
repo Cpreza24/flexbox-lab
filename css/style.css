@@ -11,6 +11,8 @@ body {
 nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between; 
 }
 
 p {
@@ -46,6 +48,7 @@ input {
     border-radius: 29px;
     border: 0px;
     padding: 0 24px;
+    margin: auto;
 }
 
 main {
@@ -75,6 +78,26 @@ nav button {
 
 .card-footer * {
     margin-top: 8px;
+}
+
+#actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #subnav {
