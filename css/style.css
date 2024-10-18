@@ -8,11 +8,12 @@ body {
     margin: 0;
 }
 
+/* Testing to clone my code to my laptop from git. changed background color to red */
 nav {
-    background-color: white;
+    background-color: red;
     padding: 8px 16px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 p {
