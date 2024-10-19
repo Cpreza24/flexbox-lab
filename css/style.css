@@ -8,9 +8,8 @@ body {
     margin: 0;
 }
 
-/* Testing to clone my code to my laptop from git. changed background color to red */
 nav {
-    background-color: red;
+    background-color: white;
     padding: 8px 16px;
     display: flex;
     justify-content: space-between;
@@ -55,6 +54,9 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 nav button {
@@ -104,6 +106,8 @@ nav button {
 #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 #subnav button {
@@ -118,4 +122,23 @@ nav button {
     color: black;
     border-radius: 50px;
     padding: 6px 15px;
+    display: flex;
+}
+
+#trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
 }
